@@ -1,11 +1,12 @@
 const Apify = require('apify');
 const firebase = require('firebase');
 
-var runAccordingToSepcificConditions = false
-//var runAccordingToSepcificConditions = true
+//var runAccordingToSepcificConditions = false
+var runAccordingToSepcificConditions = true
 
 //var url = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs?token='+token
-var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
+//var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
+var whichActorToRun = 'https://api.apify.com/v2/acts/fghrh65h565~my-puppeteer-scraper/runs'
 
 async function startRunningActorProcess() {
 	
@@ -177,7 +178,46 @@ var accountsWithDetails = {
 
  },
  
- 'NewTemplate':{
+ //2 feb
+ 'lavpreetoig38@proton.me':{
+"lavpreetoig38@proton.meOrg1":{"createdAt":"lavpreetoig38@proton.meOrg1 (02 Feb (23:52:00 PM) Friday)","userName":"japan_row","userID":"FBtepJw5DPZKe5uGj","personalAPIToken":"apify_api_N0qoRifgNZ0KI4gc5tp7iuwTIW7D7E3ssccK","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (23:52:00 PM) Friday)","userName":"Khjfgdxvj","userID":"r2ycWW9RatHLKFAi2","personalAPIToken":"apify_api_n5Z1xGjn8st2DPegd9iEmnheJcVLQf1Vblfj","organizationAPIToken":"apify_api_LlNcVANL2yGgNx2cdHYw4yvQVIr7eC3A1YZy"},
+
+ },
+ 
+ 'ramankunar370@proton.me':{
+"ramankunar370@proton.meOrg1":{"createdAt":"ramankunar370@proton.meOrg1 (02 Feb (21:21:00 PM) Friday)","userName":"kinetic_microscope","userID":"ndyDAqSFSj7gbhPqH","personalAPIToken":"apify_api_FPrJakOZZa3o5tEGU7Xnm7mGqQ0flE2XTYut","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (21:21:00 PM) Friday)","userName":"Lkihtttttdfgh","userID":"e8kt6YwMMi8uRmeSn","personalAPIToken":"apify_api_3iHMP2CNTCpQlkGv9syWhcAyzrmp2t2ghWeb","organizationAPIToken":"apify_api_KB3Rw2LBiMqsRCOCsA8crGomvwvX72013xBH"},
+
+ },
+ 
+ 'niteshkunar901@proton.me':{
+"niteshkunar901@proton.meOrg1":{"createdAt":"niteshkunar901@proton.meOrg1 (02 Feb (15:21:00 PM) Friday)","userName":"glaciological_filbert","userID":"7oeAhtYqGeKw8vtnB","personalAPIToken":"apify_api_fVGOPSIY5TLjb2PN4cN3AHXhVS2uX63ildmy","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (15:21:00 PM) Friday)","userName":"Jvgugdgxjvkb","userID":"zjfG4Ne8sETxsNPvY","personalAPIToken":"apify_api_MpxiOh4iDtewfVHtv6xkMlst4HIUfW2hd5S5","organizationAPIToken":"apify_api_xdyJer1jXmLGlknOHSDBiUQ8SYhe8x3WpWxB"},
+
+ },
+ 
+ 'jugeshkysd70@proton.me':{
+"jugeshkysd70@proton.meOrg1":{"createdAt":"jugeshkysd70@proton.meOrg1 (02 Feb (12:25:00 PM) Friday)","userName":"fetching_syrup","userID":"Z8385gPuzsgnL6Wyp","personalAPIToken":"apify_api_4D0fKcJ0mavYq7iOauMvVtjbygkvK40msGMo","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (12:25:00 PM) Friday)","userName":"Ssrtyfnddetytfg","userID":"bQXcdDW6MBptGsHXv","personalAPIToken":"apify_api_Uo0lz45BhaZBfok7hhtIcKI2xaECnb1n1FVv","organizationAPIToken":"apify_api_Uyois2UbFwwG8SrLGRyEoyIv7eXeJx2ncpMD"},
+
+ },
+ 
+ 'surjeetkuna3079@proton.me':{
+"surjeetkuna3079@proton.meOrg1":{"createdAt":"surjeetkuna3079@proton.meOrg1 (02 Feb (09:55:00 AM) Friday)","userName":"cherished_jingo","userID":"yaZ8iZD7EHgt9uhyu","personalAPIToken":"apify_api_T82UgMa9Af4cIererH7hvYdjqNI3ex3NOeIR","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (09:55:00 AM) Friday)","userName":"Ksskdjhgfchg","userID":"oZWvhzwYTdWRiyyhF","personalAPIToken":"apify_api_N7QE6sR3bHdQtdwckH9B3sGtQPtZZO2VuFU8","organizationAPIToken":"apify_api_xbLTHTH86IlzqSfyO5hwAUREZcXt2G38Y4p8"},
+
+ },
+ 
+ 'amandeepajj384@proton.me':{
+"amandeepajj384@proton.meOrg1":{"createdAt":"amandeepajj384@proton.meOrg1 (02 Feb (18:54:00 PM) Friday)","userName":"giggling_pavement","userID":"PW4b5p2Pox7HiWdHd","personalAPIToken":"apify_api_q22grxMkgmee5HcyPpwbHa5QokaZD74jBqw9","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (18:54:00 PM) Friday)","userName":"Slosodurvkhv","userID":"tioepRhcDAGBh83pG","personalAPIToken":"apify_api_dD7OIcCowEjZraofKqLIpvFzBobW6r3aarFX","organizationAPIToken":"apify_api_OO1YD45mRGD2gh0lKWjwXk9L0200Tf2NdooW"},
+
+ },
+ 
+ 'arjunpanday030@proton.me':{
+"arjunpanday030@proton.meOrg1":{"createdAt":"arjunpanday030@proton.meOrg1 (02 Feb (16:48:00 PM) Friday)","userName":"satisfactory_elderberry","userID":"mAaBPfmjP82MKmQrg","personalAPIToken":"apify_api_nFOVIMBy00Iem3Su1qqzJkzlhidD6G0STnt3","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (02 Feb (16:48:00 PM) Friday)","userName":"Lspoihdvbe","userID":"jh2Moahcxeg5LgJpJ","personalAPIToken":"apify_api_gs5EtBy8YuziWZtuWMncL97OlZKZAG0O2Tuz","organizationAPIToken":""},
 
  },
  
@@ -228,6 +268,13 @@ var accountsWithDetails = {
  'jitenderku680@proton.me':{
 "jitenderku680@proton.meOrg1":{"createdAt":"jitenderku680@proton.meOrg1 (31 Jan (01:03:00 AM) Wednesday)","userName":"lemon_jasmine","userID":"i3N8rakfGHjLGQEsj","personalAPIToken":"apify_api_of3FxYT2CCZGSPdHXk9xbSAbxnF1JL2sdZlA","organizationAPIToken":""},
 "Org1":{"createdAt":"Org1 (31 Jan (01:03:00 AM) Wednesday)","userName":"Sldodirbvg","userID":"92KeKMc99JgRHTqrB","personalAPIToken":"apify_api_ZftQJ84TmBtkgoTjuLQqRdZDMAvK1B08YpJL","organizationAPIToken":"apify_api_TIffHqFlE9LLVc77qaPr7UeKtrZlJx147Eg8"},
+
+ },
+ 
+ 
+ 'surindernn54@proton.me':{
+"surindernn54@proton.me":{"createdAt":"surindernn54@proton.meOrg1 (31 Jan (12:02:00 PM) Saturday)","userName":"compelling_xiphosura","userID":"xcGXMr4XzDs8ahHea","personalAPIToken":"apify_api_lWWuksyNbIJ0GDNoH1b9M0zzzc3sa83kzDhK","organizationAPIToken":""},
+"Org1":{"createdAt":"Org1 (31 Jan (12:02:00 PM) Saturday)","userName":"Jhctxgxkb","userID":"Rwj87jAtTurQSqPR3","personalAPIToken":"apify_api_a8d0coO2rXecRrct4Cl0W00Wozj3SR4s7SYH","organizationAPIToken":"apify_api_ZbBwFCgUqBq43OoEpEEealDPOOnv0q1AfkXJ"},
 
  },
  
@@ -369,8 +416,8 @@ var accountsWithDetails = {
  },
  
  'satishkumarv57@proton.me':{
-"satishkumarv57@proton.meOrg1":{"createdAt":"satishkumarv57@proton.meOrg1 (26 Jan (20:12:00 PM) Friday)","userName":"peerless_rudder","userID":"A3N3qoAgjupDZjobG","personalAPIToken":"apify_api_VEdnbUQp7z5JyQkvKFEBbWKbFQIxLB3yaBxO","organizationAPIToken":""},
-"Org1":{"createdAt":"Org1 (26 Jan (20:12:00 PM) Friday)","userName":"Kssojevesh","userID":"hPuvhy5T8GFMedLPk","personalAPIToken":"apify_api_IblohfB9NpHmLZSDIVvAa2KzC4FxWd0QAO3i","organizationAPIToken":"apify_api_eFvjwg5ultJZZkmrNF2cUVGFjDyrwG03RERQ"},
+//"satishkumarv57@proton.meOrg1":{"createdAt":"satishkumarv57@proton.meOrg1 (26 Jan (20:12:00 PM) Friday)","userName":"peerless_rudder","userID":"A3N3qoAgjupDZjobG","personalAPIToken":"apify_api_VEdnbUQp7z5JyQkvKFEBbWKbFQIxLB3yaBxO","organizationAPIToken":""},
+//"Org1":{"createdAt":"Org1 (26 Jan (20:12:00 PM) Friday)","userName":"Kssojevesh","userID":"hPuvhy5T8GFMedLPk","personalAPIToken":"apify_api_IblohfB9NpHmLZSDIVvAa2KzC4FxWd0QAO3i","organizationAPIToken":"apify_api_eFvjwg5ultJZZkmrNF2cUVGFjDyrwG03RERQ"},
 
  },
  
@@ -823,11 +870,6 @@ var accountsWithDetails = {
 
  },
  
- 'surindernn54@proton.me':{
-"surindernn54@proton.me20 Jan":{"createdAt":"surindernn54@proton.me20 Jan (12:02:00 PM","userName":"compelling_xiphosura","userID":"xcGXMr4XzDs8ahHea","personalAPIToken":"apify_api_lWWuksyNbIJ0GDNoH1b9M0zzzc3sa83kzDhK","organizationAPIToken":""},
-"Org1":{"createdAt":"Org1 (20 Jan (12:02:00 PM) Saturday)","userName":"Jhctxgxkb","userID":"Rwj87jAtTurQSqPR3","personalAPIToken":"apify_api_a8d0coO2rXecRrct4Cl0W00Wozj3SR4s7SYH","organizationAPIToken":"apify_api_ZbBwFCgUqBq43OoEpEEealDPOOnv0q1AfkXJ"},
-
- },
  
  'harmandeep46@proton.me':{
 "harmandeep46@proton.meOrg1":{"createdAt":"harmandeep46@proton.meOrg1 (20 Jan (10:42:00 AM) Saturday)","userName":"saffron_legume","userID":"GuRZQu6n6nua36Sw3","personalAPIToken":"apify_api_OfxWLIssM0EGhp1ddza3YmTSobT2E34eRa4j","organizationAPIToken":""},
