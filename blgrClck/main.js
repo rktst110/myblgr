@@ -1,8 +1,8 @@
 const Apify = require('apify');
 const firebase = require('firebase');
 
-var runAccordingToSepcificConditions = false
-//var runAccordingToSepcificConditions = true
+//var runAccordingToSepcificConditions = false
+var runAccordingToSepcificConditions = true
 
 //var url = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs?token='+token
 //var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
