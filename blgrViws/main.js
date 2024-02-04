@@ -17,11 +17,13 @@ async function getCountryCode( previousCountryNumber, whichAccountTurnTrueFalse 
 	"United States", 
 	"United Kingdom", 
 	"Canada",
+		"New Zealand",
 	"United Arab Emirates",
 	"United States", 
 	"Australia", 
 	"United Kingdom", 
-	
+	"New Zealand",
+		
 	"United Arab Emirates",
 	"United States", 
 	"United Kingdom", 
@@ -32,11 +34,12 @@ async function getCountryCode( previousCountryNumber, whichAccountTurnTrueFalse 
 	"United States", 
 	"United Kingdom", 
 	"Canada", 
-
+"New Zealand",
 	"Germany", 
 	"Austria", 
 	"United States",
   	"Australia", 
+		"New Zealand",
      "United Arab Emirates",
 	"United Kingdom", 
 	"Sweden"
