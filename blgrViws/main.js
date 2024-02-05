@@ -3,7 +3,8 @@ const firebase = require('firebase');
 
 //var url = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs?token='+token
 //var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
-var whichActorToRun = 'https://api.apify.com/v2/acts/fghrh65h565~my-puppeteer-scraper/runs'
+//var whichActorToRun = 'https://api.apify.com/v2/acts/fghrh65h565~my-puppeteer-scraper/runs'
+var whichActorToRun = 'https://api.apify.com/v2/acts/fd564df564df~apify-sdk-js-jan-2024/runs'
 
 async function startRunningActorProcess() {
 	
@@ -17,13 +18,11 @@ async function getCountryCode( previousCountryNumber, whichAccountTurnTrueFalse 
 	"United States", 
 	"United Kingdom", 
 	"Canada",
-		"New Zealand",
 	"United Arab Emirates",
 	"United States", 
 	"Australia", 
 	"United Kingdom", 
-	"New Zealand",
-		
+	
 	"United Arab Emirates",
 	"United States", 
 	"United Kingdom", 
@@ -34,12 +33,11 @@ async function getCountryCode( previousCountryNumber, whichAccountTurnTrueFalse 
 	"United States", 
 	"United Kingdom", 
 	"Canada", 
-"New Zealand",
+
 	"Germany", 
 	"Austria", 
 	"United States",
   	"Australia", 
-		"New Zealand",
      "United Arab Emirates",
 	"United Kingdom", 
 	"Sweden"
