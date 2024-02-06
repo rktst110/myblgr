@@ -2219,69 +2219,8 @@ Apify.main(async () => {
 	
 	 	  try {
 			  
-			 // await startRunningActorProcess();
-			  
-			  
-			  if( runAccordingToSepcificConditions )
-			  {  // this block checks if current time is matching this condition "Run every 40 minutes each day. i.e. run at 12:40pm, 01:20pm, so on..."
-				  
-				var dateOptions = {
-				  timeZone: 'Asia/Kolkata',
-				};
-
-				  var localDate = new Date().toLocaleString('en-IN', dateOptions);
-				  var currentDate = new Date( localDate );
-				 // var currentDate = new Date(  );
-				//var currentDate = new Date('2023-11-09T20:44:00');
-				var midnightDate = new Date(currentDate);
-				midnightDate.setHours(0, 0, 0, 0);
-				//console.log(midnightDate);
-
-				//var startTime = new Date('2023-01-01T00:00:00'); // Set the start time
-				var startTime = midnightDate; // Set the start time
-
-				var interval = 45; // 35 minutes interval
-				var extraInterval = 5; // 35 minutes interval
-				var currentHour = currentDate.getHours()
-				
-				if( currentHour >=8 && currentHour <10 || currentHour >=12 && currentHour <13 || currentHour >=16 && currentHour <18  || currentHour >=20 && currentHour <21 )
-				{
-					interval = 30; // 35 minutes interval
-				}
-				
-				for (var i = 0; i < 120; i++) { // Check against 10 time intervals as an example
-					var intervalTime = new Date(startTime.getTime() + i * interval * 60 * 1000);
-					var extraIntervalTime = new Date(intervalTime.getTime() + extraInterval * 60 * 1000);
-					
-					var currentTime2Digit = currentDate.toLocaleString([], { hour: '2-digit', minute: '2-digit' })
-					var intervalTime2Digit = intervalTime.toLocaleString([], { hour: '2-digit', minute: '2-digit' })
-					var extraIntervalTime2Digit = extraIntervalTime.toLocaleString([], { hour: '2-digit', minute: '2-digit' })
-					
-					var currentTimeNumber = currentDate.getTime()
-					var intervalTimeNumber = intervalTime.getTime()
-					var extraIntervalTimeNumber = extraIntervalTime.getTime()
-					
-					 //console.log( currentHour,currentMinute,  intervalTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),);
-					 //console.log( currentTimeNumber, intervalTimeNumber,extraIntervalTimeNumber, intervalTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }), extraIntervalTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) );
-					 console.log( currentTime2Digit +' : '+intervalTime2Digit+' - '+extraIntervalTime2Digit );
-					if( currentTimeNumber>=intervalTimeNumber && currentTimeNumber<=extraIntervalTimeNumber )
-					{
-						console.log('Current time ('+currentTime2Digit+') matches the interval:', intervalTime2Digit+' - '+extraIntervalTime2Digit );
-						await startRunningActorProcess();
-						break; // If a match is found, exit the loop
-					}
-					
-				}
-
-				  
-			  }
-			  else
-			  {
-				  await startRunningActorProcess();
-			  }
-			  
-			
-				
+			  await startRunningActorProcess();
+	
 	
 	} catch (err) {
                 //console.log(`Cannot import item ${JSON.stringify(item)}: ${err.message}`);
