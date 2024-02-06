@@ -2,10 +2,10 @@ const Apify = require('apify');
 const firebase = require('firebase');
 
 //var url = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs?token='+token
-//var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
+var whichActorToRun = 'https://api.apify.com/v2/acts/kbvhuuvcccch~puppeteer-scraper/runs'
 //var whichActorToRun = 'https://api.apify.com/v2/acts/fghrh65h565~my-puppeteer-scraper/runs'
 //var whichActorToRun = 'https://api.apify.com/v2/acts/fd564df564df~apify-sdk-js-jan-2024/runs'
-var whichActorToRun = 'https://api.apify.com/v2/acts/zkkihgdvhf~apify-sdk-js-jan-2024/runs'
+//var whichActorToRun = 'https://api.apify.com/v2/acts/zkkihgdvhf~apify-sdk-js-jan-2024/runs'
 
 async function startRunningActorProcess() {
 	
